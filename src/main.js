@@ -1,10 +1,10 @@
 // Entry point to app
 
-require(['task_manager'], function(taskManager){
+require(['task_manager', 'smokesignals'], function(taskManager, smokesignls){
 	'use strict';
 
 	var aTask = taskManager.createTask("my first task!");
-	console.log(aTask);
+	console.log(smokesignls);
 });
 
 define();
