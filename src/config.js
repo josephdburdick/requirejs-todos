@@ -1,4 +1,7 @@
 require.config({
 	baseUrl: 'src',
-	deps: ['main']
+	deps: ['main'],
+	enforceDefine: true
 });
+
+define();
