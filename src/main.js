@@ -1,10 +1,12 @@
 // Entry point to app
 
-require(['task_manager', 'smokesignals'], function(taskManager, smokesignls){
+require(['text!views/app.html', 'view_models', 'renderer'], function(appView, App, renderer){
 	'use strict';
 
-	var aTask = taskManager.createTask("my first task!");
-	console.log(smokesignls);
+	var container = document.body,
+	viewModel = new App();
+
+	renderer.render(container, appView, viewModel);
 });
 
 define();

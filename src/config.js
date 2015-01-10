@@ -4,7 +4,9 @@ require.config({
 	enforceDefine: true,
 	paths: {
 		'knockout': '../bower_components/knockoutjs/knockout',
-		'smokesignals': '../vendor/smokesignals'
+		'smokesignals': '../vendor/smokesignals',
+		'text': '../bower_components/requirejs-text/text',
+		'views': '../views'
 	}, 
 	shim: {
 		'smokesignals': {
