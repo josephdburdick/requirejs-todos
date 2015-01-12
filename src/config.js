@@ -3,7 +3,7 @@ require.config({
 	deps: ['main'],
 	enforceDefine: true,
 	paths: {
-		'knockout': '../bower_components/knockoutjs/knockout',
+		'knockout': '../bower_components/knockoutjs/dist/knockout',
 		'smokesignals': '../vendor/smokesignals',
 		'text': '../bower_components/requirejs-text/text',
 		'views': '../views'

@@ -9,7 +9,7 @@ define(['ui-strings', 'knockout'], function(uiStrings, ko){
 		this.loadText = uiStrings.addText;
 
 		this.enableAdd = ko.observable(false);
-		this.enableLoad = ko.observable(false;)
+		this.enableLoad = ko.observable(false);
 	}
 
 	return App;

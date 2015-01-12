@@ -1,4 +1,4 @@
-define(['knockout'], function(lo){
+define(['knockout'], function(ko){
 	'use strict';
 
 	function render(container, view, viewModel){
